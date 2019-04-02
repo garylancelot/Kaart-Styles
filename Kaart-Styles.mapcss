@@ -366,8 +366,7 @@ way[oneway=-1]::arrows { z-index: 15; color: #555555; width: 2; dashes: 10,50; l
 /* Under construction */
 
 way[highway=proposed] { z-index: 5; color: #ffff01; width: 6; dashes: 8, 2; }
-way[highway=construction] { z-index: 5; color: #ffff00; width: 6; dashes: 8, 4; casing-color: #0000aa; casing-width: 1; casing-dashes: 8,4;}
-
+way[highway=construction] {  z-index: 5; width: 6; linecap: square; color: #ff6700; casing-color:  #ff6700; casing-width: 2; dashes: 20; dashes-background-color: white;  dashes-casing-color: black; linejoin: round;}
 
 
 /* Railways */
